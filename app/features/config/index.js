@@ -8,17 +8,17 @@ export default {
     /**
      * The URL to the source code repository.
      */
-    sourceURL: 'https://github.com/jitsi/jitsi-meet-electron',
+    sourceURL: 'https://softofficepro.com/konnect',
 
     /**
      * Application name.
      */
-    appName: 'Jitsi Meet',
+    appName: 'konnect',
 
     /**
      * The default server URL of Jitsi Meet Deployment that will be used.
      */
-    defaultServerURL: 'https://meet.jit.si',
+    defaultServerURL: 'https://meet.softofficepro.com',
 
     /**
      * The default server Timeout in seconds.
@@ -28,15 +28,15 @@ export default {
     /**
      * URL to send feedback.
      */
-    feedbackURL: 'mailto:support@jitsi.org',
+    feedbackURL: 'mailto:info@softofficepro.comg',
 
     /**
      * The URL of Privacy Policy Page.
      */
-    privacyPolicyURL: 'https://jitsi.org/meet/privacy',
+    privacyPolicyURL: 'https://www.softofficepro.com/privacy-policy-for-connect/',
 
     /**
      * The URL of Terms and Conditions Page.
      */
-    termsAndConditionsURL: 'https://jitsi.org/meet/terms'
+    termsAndConditionsURL: 'https://www.softofficepro.com/terms-and-conditions/'
 };

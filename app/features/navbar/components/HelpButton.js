@@ -107,9 +107,6 @@ export default class HelpButton extends Component< *, State> {
                     <Item onActivate = { this._onAboutClick }>
                         About
                     </Item>
-                    <Item onActivate = { this._onSourceClick }>
-                        Source
-                    </Item>
                     <Item>
                         Version: { version }
                     </Item>

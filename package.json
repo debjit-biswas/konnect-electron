@@ -1,9 +1,9 @@
 {
-  "name": "jitsi-meet-electron",
+  "name": "konnect-electron",
   "version": "2.0.2",
-  "description": "Electron application for Jitsi Meet",
+  "description": "Electron application for konnect",
   "main": "./build/main.js",
-  "productName": "Jitsi Meet",
+  "productName": "konnect",
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
     "clean": "rm -rf node_modules build dist",
@@ -16,8 +16,8 @@
     "watch": "webpack --config ./webpack.renderer.js --mode development --watch --watch-poll"
   },
   "build": {
-    "appId": "org.jitsi.jitsi-meet",
-    "productName": "Jitsi Meet",
+    "appId": "com.softofficepro.connect.electron",
+    "productName": "konnect",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "**/*",
@@ -26,20 +26,20 @@
       "!main.js"
     ],
     "mac": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "konnect.${ext}",
       "category": "public.app-category.video",
       "darkModeSupport": true,
       "hardenedRuntime": false,
       "extendInfo": {
-        "NSCameraUsageDescription": "Jitsi Meet requires access to your camera in order to make video-calls.",
-        "NSMicrophoneUsageDescription": "Jitsi Meet requires access to your microphone in order to make calls (audio/video)."
+        "NSCameraUsageDescription": "konnect requires access to your camera in order to make video-calls.",
+        "NSMicrophoneUsageDescription": "konnect requires access to your microphone in order to make calls (audio/video)."
       }
     },
     "linux": {
-      "artifactName": "jitsi-meet-${arch}.${ext}",
+      "artifactName": "konnect-${arch}.${ext}",
       "category": "VideoConference;AudioVideo;Audio;Video;Network",
-      "description": "Jitsi Meet Desktop App",
-      "executableName": "jitsi-meet",
+      "description": "konnect Desktop App",
+      "executableName": "konnect",
       "target": [
         {
           "arch": "x64",
@@ -48,7 +48,7 @@
       ]
     },
     "win": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "konnect.${ext}",
       "target": [
         {
           "arch": [
@@ -68,16 +68,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet-electron"
+    "url": "git://https://github.com/debjit-biswas/konnect-electron"
   },
   "keywords": [
     "jingle",
     "webrtc",
     "xmpp",
     "electron",
-    "jitsi-meet"
+    "konnect"
   ],
-  "author": "Jitsi Team <support@jitsi.org>",
+  "author": "Softofficepro <info@softofficepro.com>",
   "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "dependencies": {

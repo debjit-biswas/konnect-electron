@@ -6,7 +6,6 @@
 import '@atlaskit/css-reset';
 
 import { SpotlightManager } from '@atlaskit/onboarding';
-
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';

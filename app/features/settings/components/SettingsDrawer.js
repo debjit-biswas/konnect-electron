@@ -104,7 +104,7 @@ class SettingsDrawer extends Component<Props, *> {
                         <AvatarContainer>
                             <Avatar
                                 size = 'xlarge'
-                                src = { this.props._avatarURL } />
+                                src = 'https://www.softofficepro.com/konnect-logo-positive.png' />
                         </AvatarContainer>
                         <SpotlightTarget
                             name = 'name-setting'>
