@@ -3,7 +3,7 @@ export default {
     /**
      * The URL with extra information about the app / service.
      */
-    aboutURL: 'https://jitsi.org/what-is-jitsi/',
+    aboutURL: 'https://softofficepro.com/konnect',
 
     /**
      * The URL to the source code repository.
