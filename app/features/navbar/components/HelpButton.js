@@ -94,15 +94,12 @@ export default class HelpButton extends Component< *, State> {
                 onOpenChange = { this._onOpenChange }
                 position = 'right bottom'
                 trigger = { <HelpIcon /> }>
-                <Group heading = 'Help'>
+                <Group heading = ''>
                     <Item onActivate = { this._onTermsClick }>
                         Terms
                     </Item>
                     <Item onActivate = { this._onPrivacyClick }>
                         Privacy
-                    </Item>
-                    <Item onActivate = { this._onSendFeedbackClick }>
-                        Send Feedback
                     </Item>
                     <Item onActivate = { this._onAboutClick }>
                         About
